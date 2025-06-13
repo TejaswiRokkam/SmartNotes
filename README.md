@@ -63,15 +63,15 @@ Go to your browser and open: http://localhost:8501
 ---
 
 ## 🚧 Future Improvements
-> Speaker diarization (who said what)
-> Auto-save/export to Notion, PDF, or Google Docs
-> Translation support
-> Zoom/Meet integration
+- Speaker diarization (who said what)
+- Auto-save/export to Notion, PDF, or Google Docs
+- Translation support
+- Zoom/Meet integration
 
 ---
 
 ## 🙌 Acknowledgements
-> Whisper by OpenAI
-> Cohere for Developers
-> Streamlit
-> FFmpeg
+- Whisper by OpenAI
+- Cohere for Developers
+- Streamlit
+- FFmpeg
