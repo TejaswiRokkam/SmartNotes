@@ -33,27 +33,29 @@ SmartNotes is an AI-powered web app that lets you **upload meeting audio or vide
 
 1. Clone the repo
 git clone https://github.com/TejaswiRokkkam/SmartNotes.git
-cd smartnotes-app
 
 2. Create virtual environment
+```bash
 python -m venv venv
 venv\Scripts\activate   # On Windows
-
-3. Install dependencies
+```
+4. Install dependencies
+```bash
 pip install -r requirements.txt
-
+```
 ---
 
 ## 🔐 Setup API Keys
 1. Inside the project folder, create a hidden folder called .streamlit
-mkdir .streamlit
 2. Inside .streamlit, create a file called secrets.toml
-touch .streamlit/secrets.toml
 3. Paste the following inside secrets.toml:
+```bash
 COHERE_API_KEY = "your-cohere-api-key"
-
+```
 ---
 
 ## ▶️ Run the App
+```bash
 streamlit run app.py
+```
 Go to your browser and open: http://localhost:8501
