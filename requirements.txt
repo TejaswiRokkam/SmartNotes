@@ -1,0 +1,6 @@
+streamlit
+whisper
+cohere
+torch
+torchaudio
+ffmpeg-python
