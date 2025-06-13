@@ -34,10 +34,12 @@ SmartNotes is an AI-powered web app that lets you **upload meeting audio or vide
 1. **Clone this repository**
 https://github.com/TejaswiRokkam/SmartNotes
 2. **Create and activate a virtual environment**
+
 python -m venv venv
 venv\Scripts\activate    # For Windows
-# OR
+or
 source venv/bin/activate  # For Mac/Linux
+
 3. **Install dependencies**
 pip install -r requirements.txt
 
